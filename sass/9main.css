@@ -144,7 +144,7 @@ body {
   font-family: "Roboto Condensed", Roboto, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: var(--color2);
+  color: var(--whitecolor);
   background: url(../images/bg-bot.jpg) no-repeat bottom center;
   background-size: contain;
   background-color: #e3e4eb;
@@ -227,6 +227,8 @@ a.btn-xephang:hover {
   top: 0;
   left: 50%;
   margin-left: -960px;
+  background: none;
+  border: none;
 }
 .header .bgvideo #videoef {
   width: 100%;
