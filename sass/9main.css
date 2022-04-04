@@ -219,6 +219,7 @@ a.btn-xephang:hover {
   position: relative;
   background: url(../images/bg-top.jpg) no-repeat top center;
   height: 1019px;
+  overflow: hidden;
 }
 .header .bgvideo {
   width: 1920px;
@@ -229,6 +230,7 @@ a.btn-xephang:hover {
   margin-left: -960px;
   background: none;
   border: none;
+  z-index: 1;
 }
 .header .bgvideo #videoef {
   width: 100%;
