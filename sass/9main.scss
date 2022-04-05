@@ -39,6 +39,9 @@ a.btn-xephang{position:fixed;top: 60%;left: 0;z-index: 10;
   .bgvideo {width: 1920px;height: 1000px;position: absolute;top:0;left: 50%;margin-left: -960px;background:none;border:none;z-index: 1;
     #videoef{width: 100%;height: auto;}
   }
+  .bg-onvideo{position: absolute;z-index: 2;bottom: 0;
+    img{max-width: 100%;display: block;}
+  }
   .header-center{z-index: 9;position: relative;
     .btnvideo{margin-top: 468px;
       img{opacity: 0;}
