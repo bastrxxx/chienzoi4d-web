@@ -218,16 +218,16 @@ a.btn-xephang:hover {
 .header {
   position: relative;
   background: url(../images/bg-top.jpg) no-repeat top center;
-  height: 1019px;
+  height: 1030px;
   overflow: hidden;
 }
 .header .bgvideo {
-  width: 1920px;
-  height: 1000px;
+  width: 100%;
+  height: auto;
   position: absolute;
   top: 0;
   left: 50%;
-  margin-left: -960px;
+  transform: translate(-50%);
   background: none;
   border: none;
   z-index: 1;
@@ -240,6 +240,10 @@ a.btn-xephang:hover {
   position: absolute;
   z-index: 2;
   bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: auto;
 }
 .header .bg-onvideo img {
   max-width: 100%;
