@@ -82,11 +82,8 @@ a.btn-xephang{position:fixed;top: 60%;left: 0;z-index: 10;
         animation: laluot linear 2.5s infinite 1s;
       }
     }
-    .listbutton{background: url(../images/bg-download.png) no-repeat top center;background-size: 100% 100%;padding-top:66%;margin-top: -59%;
-      a{display: flex;padding: 0.75rem 0;background: 
-        radial-gradient(transparent 50%, rgba(165, 135, 255, 0.5)) 
-        center/200% 200% no-repeat;
-     transition: 0.5s ;
+    .listbutton{background: url(../images/bg-download.png) no-repeat top center;background-size: 100% 100%;padding-top:66%;margin-top: -59%;display: grid;grid-template-columns: auto auto;
+      a{display: flex;background:radial-gradient(transparent 50%, rgba(165, 135, 255, 0.5)) center/200% 200% no-repeat;transition: 0.5s ;text-align: center;align-items: center;flex-direction: column;
         img{object-fit: contain;}
         .text{font-size: 20px;color: var(--whitecolor);}
         // &:hover{background:rgb(135 222 255 / 17%);}
@@ -165,7 +162,7 @@ a.btn-xephang{position:fixed;top: 60%;left: 0;z-index: 10;
     p{line-height: 1;font-weight: 500;color: var(--color2);}
   }
 }
-.floatbar{width: 166px;height: 653px;background: url(../images/floatside.png) no-repeat top center;position: fixed;right: 0;top: 20%;z-index: 15;
+.floatbar{width: 166px;height: 743px;background: url(../images/floatside.png) no-repeat top center;position: fixed;right: 0;top: 10%;z-index: 15;
   ul{list-style: none;display: flex;justify-content: center;align-items: center;flex-direction: column;font-size: 12px;
     li{padding:0.3rem 0;
       a{display: flex;align-items: center;align-content:center;color: #fff;
