@@ -670,8 +670,8 @@ a.btn-xephang:hover {
 .floatbar ul li a.store img {
   width: 28px;
   height: 28px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .floatbar ul li a.store span {

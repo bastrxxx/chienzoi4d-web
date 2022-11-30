@@ -169,7 +169,7 @@ a.btn-xephang{position:fixed;top: 60%;left: 0;z-index: 10;
         &:hover{filter: brightness(120%);}
       }
       a.store{background: #050f15;padding:0.5rem;border-radius:6px;color:#fff;width: 124px;height: 39px;
-        img{width: 28px;height: 28px;object-fit: cover;}
+        img{width: 28px;height: 28px;object-fit: contain;}
         span{line-height: 1;}
         &:hover{background: #6358b9;}
       }
