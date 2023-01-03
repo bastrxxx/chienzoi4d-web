@@ -553,7 +553,7 @@ a.btn-xephang:hover {
 .footer {
   min-height: 200px;
   background-color: #e8e9f0;
-  margin-top: 170px;
+  margin-top: 120px;
 }
 
 .footer .footer-menu {
@@ -728,16 +728,16 @@ a.btn-xephang:hover {
 
 /*=BXH=*/
 .bxh {
-  background: url(../images/bc-bxh.png) no-repeat top center;
   width: 1207px;
   height: 872px;
   margin: 0 auto;
+  position: relative;
 }
 
 .bxh .khungin {
-  width: 921px;
+  width: 100%;
   height: auto;
-  margin-top: 111px;
+  margin-top: 51px;
   position: relative;
 }
 
@@ -751,10 +751,17 @@ a.btn-xephang:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
+  z-index: 5;
+  width: 921px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 102px;
 }
 
 .bxh .khungin .nav button {
-  width: 300px;
+  width: 230px;
   height: 79px;
   margin-bottom: 24px;
   -webkit-transition: 0.2s ease;
@@ -762,8 +769,10 @@ a.btn-xephang:hover {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
   background: url(../images/btn.png) no-repeat top center;
-  font-size: 24px;
+  font-size: 20px;
   color: var(--whitecolor);
+  background-size: contain;
+  height: 61px;
 }
 
 .bxh .khungin .nav button:hover, .bxh .khungin .nav button.active {
@@ -793,9 +802,82 @@ a.btn-xephang:hover {
   text-align: center;
 }
 
+.bxh .khungin .tab-content .tab-pane {
+  background: url(../images/bc-bxh.png) no-repeat top center;
+  width: 100%;
+  height: 864px;
+  position: relative;
+}
+
+.bxh .khungin .tab-content .tab-pane .showin {
+  width: 921px;
+  margin: 0 auto;
+  padding-top: 270px;
+}
+
+.bxh .khungin .tab-content .tab-pane.kim {
+  -webkit-filter: hue-rotate(166deg) contrast(1.3) brightness(1.1);
+          filter: hue-rotate(166deg) contrast(1.3) brightness(1.1);
+}
+
+.bxh .khungin .tab-content .tab-pane.kim tr img {
+  -webkit-filter: hue-rotate(194deg) contrast(1) brightness(1);
+          filter: hue-rotate(194deg) contrast(1) brightness(1);
+}
+
+.bxh .khungin .tab-content .tab-pane.moc {
+  -webkit-filter: hue-rotate(231deg) contrast(1.3);
+          filter: hue-rotate(231deg) contrast(1.3);
+}
+
+.bxh .khungin .tab-content .tab-pane.moc tr img {
+  -webkit-filter: hue-rotate(124deg) contrast(1) brightness(1);
+          filter: hue-rotate(124deg) contrast(1) brightness(1);
+}
+
+.bxh .khungin .tab-content .tab-pane.thuy {
+  -webkit-filter: hue-rotate(321deg) contrast(1.1) brightness(1.1);
+          filter: hue-rotate(321deg) contrast(1.1) brightness(1.1);
+}
+
+.bxh .khungin .tab-content .tab-pane.thuy tr img {
+  -webkit-filter: hue-rotate(40deg) contrast(1) brightness(1);
+          filter: hue-rotate(40deg) contrast(1) brightness(1);
+}
+
+.bxh .khungin .tab-content .tab-pane.hoa {
+  -webkit-filter: hue-rotate(134deg) contrast(1.3) brightness(1.1);
+          filter: hue-rotate(134deg) contrast(1.3) brightness(1.1);
+}
+
+.bxh .khungin .tab-content .tab-pane.hoa tr img {
+  -webkit-filter: hue-rotate(226deg) contrast(1) brightness(1);
+          filter: hue-rotate(226deg) contrast(1) brightness(1);
+}
+
+.bxh .khungin .tab-content .tab-pane.tho {
+  -webkit-filter: hue-rotate(178deg) contrast(0.9);
+          filter: hue-rotate(178deg) contrast(0.9);
+}
+
+.bxh .khungin .tab-content .tab-pane.tho tr img {
+  -webkit-filter: hue-rotate(182deg) contrast(1.1) brightness(1);
+          filter: hue-rotate(182deg) contrast(1.1) brightness(1);
+}
+
+.bxh .khungin .tab-content .tab-pane.phong {
+  -webkit-filter: hue-rotate(317deg) contrast(0.9) brightness(1.1);
+          filter: hue-rotate(317deg) contrast(0.9) brightness(1.1);
+}
+
+.bxh .khungin .tab-content .tab-pane.phong tr img {
+  -webkit-filter: hue-rotate(43deg) contrast(1) brightness(1);
+          filter: hue-rotate(43deg) contrast(1) brightness(1);
+}
+
 .backhome {
   display: block;
-  color: var(--whitecolor);
+  color: var(--color2);
   font-size: 150%;
 }
 
